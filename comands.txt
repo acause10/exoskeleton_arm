@@ -1,0 +1,9 @@
+cd exo_ws
+source devel/setup.bash
+source /opt/ros/noetic/setup.bash
+roscore
+--> Start Arduino
+rosrun rosserial_python serial_node.py /dev/ttyUSB0
+roslaunch tum_ics_skin_driver_events skin_driver_ftdi.launch FTDI_SERIAL:=FT5QZ1LC
+roslaunch skin_control skin_control.launch
+roslaunch exo_control exo_control.launch
