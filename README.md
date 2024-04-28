@@ -6,5 +6,8 @@ This code contains simple PD controller as well as the algorithm for detecting t
 
 The project has not been maintained.
 
+## Project Grade:
+**1.2** (German scale: 1- best, 5-worst)
+
 ## Credits:
 Maximilian Studt, Alex 
